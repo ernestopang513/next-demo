@@ -1,5 +1,4 @@
 import Link from 'next/Link'
-import styles from '../styles/Home.module.css'
 import { MainLayout } from '../components/layouts/MainLayout'
 
 export default function Homepage() {
@@ -7,15 +6,15 @@ export default function Homepage() {
     
     <MainLayout>
       <h1>Home Page</h1>
-        <h1 className={styles.title}>
+        <h1 className={'title'}>
           Ir a <Link href="/about">About</Link>
         </h1>
-        <h1 className={styles.title}>
+        <h1 className={'title'}>
           Ir a <Link href="/contact">Contact</Link>
         </h1>
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+        <p className='description'>
+          Get started by editing{' '} 
+          <code className={'code'}>pages/index.js</code>
         </p>
     </MainLayout>
   )
