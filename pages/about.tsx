@@ -1,8 +1,6 @@
-import Head from 'next/head'
-import Link from 'next/link'
+
 import { MainLayout } from '../components/layouts/MainLayout'
-import { NavBar } from '../components/NavBar'
-// import styles from '../styles/globals.css'
+import Link from '../node_modules/next/link'
 export default function AboutPage() {
   return (
   

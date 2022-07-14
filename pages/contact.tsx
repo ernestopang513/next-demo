@@ -1,7 +1,6 @@
-import Head from "next/head"
-import Link from "next/link"
+
 import { MainLayout } from "../components/layouts/MainLayout"
-import { NavBar } from "../components/NavBar"
+import Link from "../node_modules/next/link"
 
 export default function contactPage() {
   return (

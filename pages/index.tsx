@@ -1,5 +1,5 @@
-import Link from 'next/Link'
 import { MainLayout } from '../components/layouts/MainLayout'
+import Link from '../node_modules/next/link'
 
 export default function Homepage() {
   return (
